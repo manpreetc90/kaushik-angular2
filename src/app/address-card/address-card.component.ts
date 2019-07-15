@@ -15,7 +15,7 @@ export class AddressCardComponent implements OnInit {
       address: '66 SG Palya, Bangalore',
       phone: [
         '7829297366',
-        '7878787878'
+        '7878787878',
       ]
     };
    }

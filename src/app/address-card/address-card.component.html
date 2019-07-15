@@ -4,7 +4,6 @@
   <p>{{ user.address }}</p>
   <div>
     <p>Phone : </p>
-    <p>{{ user.phone[0] }}</p>
-    <p>{{ user.phone[1] }}</p>
+    <p *ngFor="let phoneNumber of user.phone">{{ phoneNumber }}</p>
   </div>
 </div>
