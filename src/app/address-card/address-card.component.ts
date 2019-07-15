@@ -9,8 +9,8 @@ export class AddressCardComponent implements OnInit {
 
   user: any;
 
-  // tslint:disable-next-line: no-input-rename
-  @Input('name') userName: string;
+  // tslint:disable-next-line: no-input-rename tslint:disable-next-line: no-inferrable-types
+  @Input('name') userName: string = 'Temp';
   constructor() {
    }
 
