@@ -9,6 +9,9 @@ import { User } from './address-card/user.model';
 })
 export class AppComponent {
   user: User;
+  // tslint:disable-next-line: no-inferrable-types
+  inputText: string = 'something';
+
   constructor() {
     // tslint:disable-next-line: prefer-const
     this.user = new User();
